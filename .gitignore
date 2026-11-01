@@ -1,0 +1,31 @@
+# ---------- IDE ----------
+.vs/
+.idea/
+*.user
+*.suo
+*.VC.db
+
+# ---------- 构建产物 ----------
+build/
+build-cmake/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ---------- 编译中间文件 ----------
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.tlog
+
+# ---------- 运行时临时文件 ----------
+*.tmp
+test_roundtrip.tmp
+cross_format.tmp
